@@ -3,7 +3,7 @@ import sys
 import sqlite3
 from datetime import datetime
 
-DB_NAME = "db.sqlite"
+DB_NAME = "public/pipeline/db.sqlite"
 
 def create_table():
     conn = sqlite3.connect(DB_NAME)
@@ -26,24 +26,22 @@ def parse_line(line):
     split_line = line.split(" ")
     if len(split_line) < 7:
         return []
-    first_name = split_line[0]
-    last_name = split_line[1]
-    time_local = split_line[4] + " " + split_line[5]
-    occupation = 
-    origin = 
-    residence = 
+    first_name = split_line[0].replace(".", " ")
+    last_name = split_line[1].replace(".", " ")
+    time_local = (split_line[4] + " " + split_line[5]).replace(".", " ")
+    occupation = split_line[6].replace(".", " ")
+    origin = split_line[7].replace(".", " ")
+    residence = split_line[8].replace(".", " ")
 
     created = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 
     return [
-        remote_addr,
+        first_name,
+        last_name,
         time_local,
-        request_type,
-        request_path,
-        status,
-        body_bytes_sent,
-        http_referer,
-        http_user_agent,
+        occupation,
+        origin,
+        residence,
         created
     ]
 
@@ -51,12 +49,12 @@ def insert_record(line, parsed):
     conn = sqlite3.connect(DB_NAME)
     cur = conn.cursor()
     args = [line] + parsed
-    cur.execute('INSERT INTO logs VALUES (?,?,?,?,?,?,?,?,?,?)', args)
+    cur.execute('INSERT INTO logs VALUES (?,?,?,?,?,?,?,?)', args)
     conn.commit()
     conn.close()
 
-LOG_FILE_A = "log_a.txt"
-LOG_FILE_B = "log_b.txt"
+LOG_FILE_A = "public/pipeline/log_a.txt"
+LOG_FILE_B = "public/pipeline/log_b.txt"
 
 if __name__ == "__main__":
     create_table()

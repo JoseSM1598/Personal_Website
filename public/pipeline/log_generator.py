@@ -21,11 +21,11 @@ def generate_log_line():
     fake = Faker()
     now = datetime.now()
     time_local = now.strftime('%d/%b/%Y:%H:%M:%S')
-    first_name = fake.first_name()
-    last_name = fake.last_name()
-    occupation = fake.job()
-    origin_country = fake.country()
-    current_residence = fake.state()
+    first_name = fake.first_name().replace(" ", ".")
+    last_name = fake.last_name().replace(" ", ".")
+    occupation = fake.job().replace(" ", ".")
+    origin_country = fake.country().replace(" ", ".")
+    current_residence = fake.state().replace(" ", ".")
 
     log_line = LINE.format(
         first_name = first_name,
