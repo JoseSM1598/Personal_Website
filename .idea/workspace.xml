@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6602d01d-5537-47a2-900d-6446bbd85fde" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/resume/Resume_Jose_San_Martin.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resume/Resume_Jose_San_Martin.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="138" />
-          <entry key="ejs" value="5935" />
+          <entry key="ejs" value="5945" />
           <entry key="env" value="44" />
           <entry key="html" value="24" />
           <entry key="js" value="1253" />
@@ -71,7 +73,7 @@
         <counts>
           <entry key=".env file" value="44" />
           <entry key="CSS" value="138" />
-          <entry key="EJS" value="5935" />
+          <entry key="EJS" value="5945" />
           <entry key="HTML" value="24" />
           <entry key="JavaScript" value="1253" />
           <entry key="PHP" value="41" />
@@ -94,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -226,6 +228,12 @@
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -293,12 +301,12 @@
       <workItem from="1559695420678" duration="3449000" />
       <workItem from="1560472193148" duration="304000" />
       <workItem from="1560479079169" duration="13000" />
-      <workItem from="1560479095654" duration="2210000" />
+      <workItem from="1560479095654" duration="2433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45131000" />
+    <option name="totallyTimeSpent" value="45354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
+        <state relative-caret-position="285">
+          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
         </state>
       </provider>
     </entry>
