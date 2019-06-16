@@ -38,20 +38,7 @@ router.get('/', function(req, res, next) {
     }).catch(function() {
         console.log("Promise Rejected");
     });
-
-   //generator.then(function(fromRunpy) {
-   //    console.log(fromRunpy.toString());
-   //    res.end(fromRunpy);
-   //}).catch(function() {
-   //        console.log("Promise Rejected");
-   //});
-
-   //storer.then(function(fromRunpy) {
-   //    console.log(fromRunpy.toString());
-   //    res.end(fromRunpy);
-   //}).catch(function() {
-   //    console.log("Promise Rejected");
-   //});
+    
 });
 
 module.exports = router;
