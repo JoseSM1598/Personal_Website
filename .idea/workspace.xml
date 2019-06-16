@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6602d01d-5537-47a2-900d-6446bbd85fde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/pipeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/pipeline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,7 +59,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="138" />
-          <entry key="ejs" value="5601" />
+          <entry key="ejs" value="5935" />
           <entry key="env" value="44" />
           <entry key="html" value="24" />
           <entry key="js" value="1253" />
@@ -74,7 +71,7 @@
         <counts>
           <entry key=".env file" value="44" />
           <entry key="CSS" value="138" />
-          <entry key="EJS" value="5601" />
+          <entry key="EJS" value="5935" />
           <entry key="HTML" value="24" />
           <entry key="JavaScript" value="1253" />
           <entry key="PHP" value="41" />
@@ -97,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="364" column="24" selection-start-line="364" selection-start-column="24" selection-end-line="364" selection-end-column="24" />
+            <state relative-caret-position="428">
+              <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/pipeline.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="449">
               <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
             </state>
           </provider>
@@ -296,12 +293,12 @@
       <workItem from="1559695420678" duration="3449000" />
       <workItem from="1560472193148" duration="304000" />
       <workItem from="1560479079169" duration="13000" />
-      <workItem from="1560479095654" duration="278000" />
+      <workItem from="1560479095654" duration="2210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43199000" />
+    <option name="totallyTimeSpent" value="45131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +313,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -330,7 +327,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,20 +382,6 @@
     <entry file="file://$PROJECT_DIR$/public/pipeline/log_a.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/pipeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16665">
@@ -427,10 +410,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/pipeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="364" column="24" selection-start-line="364" selection-start-column="24" selection-end-line="364" selection-end-column="24" />
+        <state relative-caret-position="428">
+          <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
         </state>
       </provider>
     </entry>
