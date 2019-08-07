@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6602d01d-5537-47a2-900d-6446bbd85fde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pipeline/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/public/pipeline/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pipeline/log_b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/pipeline/log_b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resume/jsm_resume2.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/public/resume/jsm_resume2.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resume/~$m_resume.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="96" column="18" lean-forward="true" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+            <state relative-caret-position="177">
+              <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -219,12 +218,12 @@
       <workItem from="1563505724221" duration="793000" />
       <workItem from="1564094466843" duration="414000" />
       <workItem from="1564110059016" duration="1529000" />
-      <workItem from="1565139322175" duration="648000" />
+      <workItem from="1565139322175" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50647000" />
+    <option name="totallyTimeSpent" value="50892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="96" column="18" lean-forward="true" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+        <state relative-caret-position="177">
+          <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
         </state>
       </provider>
     </entry>
