@@ -456,7 +456,7 @@ a.banner-button2 {
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
-.banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .edu-exp, .projects {
+.banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .leadership,  .edu-exp, .projects {
   padding: 4em 5em;
 }
 
@@ -770,6 +770,12 @@ form.contact-form {
 }
 /*-- //projects --*/
 
+.edu-exp{
+
+  background: #f6f6f6;
+
+}
+
 /*-- footer --*/
 
 .footer-title {
@@ -978,7 +984,7 @@ a.move-top span{
   .logo h1 a {
     font-size: 30px;
   }
-  .banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .edu-exp, .projects {
+  .banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .leadership, .edu-exp, .projects {
     padding: 4em 3em;
   }
   p {
@@ -1048,7 +1054,7 @@ a.move-top span{
 }
 
 @media(max-width: 415px) {
-  .banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .edu-exp, .projects {
+  .banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .leadership, .edu-exp, .projects {
     padding: 3em 1.5em;
   }
   header {
