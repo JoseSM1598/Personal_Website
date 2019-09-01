@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6602d01d-5537-47a2-900d-6446bbd85fde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/pipeline/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/public/pipeline/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pipeline/log_a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/pipeline/log_a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="365" column="60" selection-start-line="365" selection-start-column="60" selection-end-line="365" selection-end-column="60" />
+            <state relative-caret-position="97">
+              <caret line="39" column="181" selection-start-line="39" selection-start-column="181" selection-end-line="39" selection-end-column="181" />
             </state>
           </provider>
         </entry>
@@ -232,12 +230,12 @@
       <workItem from="1565139322175" duration="2271000" />
       <workItem from="1566084815991" duration="219000" />
       <workItem from="1566849561988" duration="6517000" />
-      <workItem from="1567346947626" duration="1470000" />
+      <workItem from="1567346947626" duration="1592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60476000" />
+    <option name="totallyTimeSpent" value="60598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="365" column="60" selection-start-line="365" selection-start-column="60" selection-end-line="365" selection-end-column="60" />
+        <state relative-caret-position="97">
+          <caret line="39" column="181" selection-start-line="39" selection-start-column="181" selection-end-line="39" selection-end-column="181" />
         </state>
       </provider>
     </entry>
